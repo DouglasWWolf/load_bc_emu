@@ -57,7 +57,7 @@ static const char* skip_comma(const char* p)
 //=================================================================================================
 // readMtVector() - Reads a CSV file full of integers and returns a vector containing them.
 //                  Values in file can be in hex or decimal, and can be comma separated into lines
-//                  of arbitrary length.   File can contain blank lines or comment lines beginning
+//                  of arbitrary length.   File can contain blank lines and comment lines beginning
 //                  with either "#" or "//"
 //
 // Will throw std::runtime error if file doesn't exist
